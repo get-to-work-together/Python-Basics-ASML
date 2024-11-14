@@ -28,6 +28,7 @@ print('\n------ PLAY TITLE -------------------------------------\n')
 title = root.find('TITLE')
 print(title.text)
 
+
 print('\n------ PERSONAE -------------------------------------\n')
 
 persona = root.iter('PERSONA')
@@ -39,9 +40,6 @@ print('\n------ SCENES -------------------------------------\n')
 scenes = root.findall('.//SCENE/TITLE')
 for s in scenes:
     print(s.text)
-
-exit()
-
 
 print('\n------ SPEECHES BY DUNCAN -------------------------\n')
 
