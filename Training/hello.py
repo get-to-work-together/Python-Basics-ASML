@@ -1,11 +1,5 @@
-print("Hello all!!!!")
+from pandas.core.interchange.from_dataframe import primitive_column_to_ndarray
 
-
-name: str = input('What is your name? : ')
-print('Hello ' + name)
-
-# name = '12'
-#
-# number_of_cars = 12
-#
-# numberOfCars = 12
+print('Hello')
+print('Are you OK?')
+print(12 + 43)
