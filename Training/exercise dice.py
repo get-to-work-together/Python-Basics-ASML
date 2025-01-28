@@ -9,6 +9,11 @@ dice5 = random.randint(1, 6)
 print('Thrown:', dice1, dice2, dice3, dice4, dice5)
 print('Total:', dice1 + dice2 + dice3 + dice4 + dice5)
 
-for i in range(5):
-    dice = random.randint(1, 6)
-    print('Thrown', dice)
+# or using a for loop and a list
+
+dice = []
+for _ in range(5):
+    dice.append(random.randint(1, 6))
+
+print('Thrown:', dice)
+print('Total:', sum(dice))
