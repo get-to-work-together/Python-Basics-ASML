@@ -1,0 +1,9 @@
+nr,status,var1,comment
+1,OK,3.45,'abcd'
+2,OK,3.45,'dfsf no error'
+3,error, 31.45,'sdf'
+4,error, 3.453,'wer'
+5,OK, 6.45,'werdfg'
+6,error, 87.45,'dgdfgdsd'
+7,OK,0.45,'absdfcd'
+8,OK,45,'sdf'
