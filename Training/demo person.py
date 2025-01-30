@@ -14,11 +14,21 @@ class Person:
         self.residence = new_residence
 
 
+class Customer(Person):
+
+    def __init__(self, name, residence, customernr):
+        super().__init__(name, residence)
+        self.customernr = customernr
+
+    def tell(self):
+        print(f'I am a customer. My name is {self.name}. My number is {self.customernr}.')
+
+
 # ----------------------------------------
 
 p1 = Person('Peter', 'Lhee')   # instantiation => __init__ magic method
 p2 = Person('Janneke', 'Amsterdam')
-p3 = Person('Kim', 'Delft')
+p3 = Customer('Kim', 'Delft', 'VIP982')
 
 print(type(p1))
 

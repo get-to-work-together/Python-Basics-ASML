@@ -7,6 +7,13 @@ class App(tk.Frame):
         w = tk.Label(master, text = 'Hello, world!')
         w.pack()
 
+        w = tk.Button(master, text = 'Click here', command=self.event_handler)
+        w.pack()
+
+
+    def event_handler(self):
+        print('Clicked!!')
+
 
 if __name__ == '__main__':
     
