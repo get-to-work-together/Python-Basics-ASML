@@ -19,7 +19,6 @@ with open(filename) as f:
             d = dict(zip(headers, values))
             if 'ERROR' in d['comment']:
                 print(f'{linenr:4} -', line)
-                # f_out.write(f'{linenr:4} - ' + line + '\n')
                 print(f'{linenr:4} -', line, file=f_out)
 
 
