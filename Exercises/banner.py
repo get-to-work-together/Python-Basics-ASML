@@ -1,12 +1,9 @@
 
-def banner(text):
-    n = len(text)
-    print('***' + '*' * n + '***')
-    print('*  ' + text    + '  *')
-    print('***' + '*' * n + '***')
 
 
-def banner(text, c = '*'):
+def banner(text: str, c: str = '*'):
+    """Print a banner around the specified text.
+    The character c is userd as banner charceter"""
     n = len(text)
     print(c * (n + 6))
     print(f'{c:<3}{text}{c:>3}')
