@@ -9,10 +9,17 @@ class BankAccount:
         self._balance -= amount
 
     def deposit(self, amount):
+
         self._balance += amount
 
     def get_info(self):
         return f'Bankaccount with number {self._number} belongs to {self._holder} has a balance of €{self._balance}.'
+
+
+class SavingsAccount(BankAccount):
+
+    def get_info(self):
+        return f'SAVINGS!!! account with number {self._number} belongs to {self._holder} has a balance of €{self._balance}.'
 
 
 # ---------------------------------------------------------
@@ -20,7 +27,7 @@ class BankAccount:
 if __name__ == '__main__':
 
     acc1 = BankAccount('NL23ABCD0345673456', 'Peter')
-    acc2 = BankAccount('NL12ABCD9283740029', 'Guido', balance = 1000)
+    acc2 = SavingsAccount('NL12ABCD9283740029', 'Guido', balance = 1000)
 
     print(acc1.get_info())
     print(acc2.get_info())

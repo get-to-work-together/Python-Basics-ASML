@@ -1,5 +1,5 @@
 
-def foolproof_input(prompt:str, lower:int, upper:int) -> int|None:
+def foolproof_input(prompt: str, lower: int, upper: int) -> int | None:
     """Ask the user to input a number between two bounds and correctly handle wromg input."""
 
     while True:

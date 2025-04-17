@@ -22,12 +22,10 @@ print(root)
 #             print('       ', e3.tag)
 
 
-
 print('\n------ PLAY TITLE -------------------------------------\n')
 
 title = root.find('TITLE')
 print(title.text)
-
 
 print('\n------ PERSONAE -------------------------------------\n')
 
@@ -35,11 +33,13 @@ persona = root.iter('PERSONA')
 for p in persona: 
     print(p.text)
 
+
 print('\n------ SCENES -------------------------------------\n')
 
 scenes = root.findall('.//SCENE/TITLE')
 for s in scenes:
     print(s.text)
+
 
 print('\n------ SPEECHES BY DUNCAN -------------------------\n')
 
