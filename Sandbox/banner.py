@@ -2,7 +2,7 @@
 def print_banner(text, star_character = '*'):
     """Print a banner with stars
 
-    @Copywrite Rik 2024"""
+    @Copywrite Peter 2024"""
     
     n = len(text)
     stars = (n + 6) * star_character
