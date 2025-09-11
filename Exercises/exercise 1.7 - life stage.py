@@ -30,24 +30,24 @@ else:
 
 
 
-##match age:
-##    case age if age < 2:
-##        print('A baby')
-##
-##    case age if age < 4:
-##        print('A toddler')
-##
-##    case age if age >= 3 and age < 13:
-##        print('A kid')
-##
-##    case age if 13 <= age < 20:
-##        print('A teenager')
-##
-##    case age if age in range(20, 65):
-##        print('An adult')
-##
-##    case _:
-##        print('An elder')
+# match age:
+#    case age if age < 2:
+#        print('A baby')
+#
+#    case age if age < 4:
+#        print('A toddler')
+#
+#    case age if age >= 3 and age < 13:
+#        print('A kid')
+#
+#    case age if 13 <= age < 20:
+#        print('A teenager')
+#
+#    case age if age in range(20, 65):
+#        print('An adult')
+#
+#    case _:
+#        print('An elder')
 
 
 

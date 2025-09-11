@@ -2,12 +2,12 @@
 
 import math
 
-n = 3_000_000
+n = 30_000_000
 
 total = 0.0
 add_or_subtract = True
 for i in range(1, n, 2):
-    if add_or_subtract == True:
+    if add_or_subtract:
         total = total + 1/i
     else:
         total = total - 1/i
@@ -16,6 +16,7 @@ for i in range(1, n, 2):
 
 pi = total * 4
 
+print(f'Number of iterations: {n}')
 print(f'Leibniz approximation of Pi = {pi}')
 
 print(f'The math library has     Pi = {math.pi}')

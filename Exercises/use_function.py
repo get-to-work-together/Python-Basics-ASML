@@ -1,3 +1,7 @@
-from password_generator_function import generate_password
+import passwords
 
-print(generate_password(8, 2, 3))
+print(passwords.__version__)
+
+print(help(passwords))
+
+print(passwords.generate_password(8, 0, 8))

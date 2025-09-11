@@ -1,16 +1,16 @@
 names = []
 
-
 while True:
     name = input('Enter a name: ')
 
-    if name == '':
+    if name:
+        names.append(name)
+    else:
         break
 
-    names.append(name)
-
-
 print('\nThe entered names are:')
+
+print(names)
 
 for name in sorted(names):
     print(name)

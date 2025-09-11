@@ -3,7 +3,7 @@
 import math
 import random
 
-n = 10_000_000
+n = 30_000_000
 
 n_shorter_than_1 = 0
 for _ in range(n):
@@ -17,9 +17,9 @@ q = n_shorter_than_1 / n
 
 pi = q * 4
 
-print('Monte Carlo approximation of Pi =', pi)
+print(f'Monte Carlo approximation of Pi = {pi:.20f}')
 
-print(f'The math library has Pi = {math.pi}')
+print(f'The math library has         Pi = {math.pi:.20f}')
 
 d = abs(pi - math.pi)
 precentage = d / math.pi * 100

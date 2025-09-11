@@ -1,4 +1,5 @@
 import string
+from pprint import pprint
 
 s = r"""Microchips go by many names: integrated circuits, semiconductor chips, 
 computer chips or, most simply, chips. Whatever you call them, these tiny pieces of 
@@ -6,6 +7,8 @@ silicon are the foundation of the digital world. They make our smartphones, cars
 medical 'equipment' and so many other now-common devices possible – and the tinier they get, 
 the more advanced technology we realize in the everyday world. 
 They may be small, but their impact is tremendous."""
+
+print(s)
 
 s = s.lower().translate(str.maketrans('áäâàéëêèíïìîóöôòúüûù',
                                       'aaaaeeeeiiiioooouuuu',
@@ -16,14 +19,16 @@ print(s)
 words = s.split()
 print(words)
 
-unique_words = set(words)
-print(unique_words)
+# unique_words = set(words)
+# print(unique_words)
+#
+# d = dict()
+# for word in unique_words:
+#     d[word] = words.count(word)
 
-d = dict()
-for word in unique_words:
-    d[word] = words.count(word)
+d = {word: words.count(word) for word in sorted(set(words))}
 
-print(d)
+pprint(d)
 
 for word, n in sorted(d.items()):
     print(f'{word:25}: {n:3} {"*" * n}')

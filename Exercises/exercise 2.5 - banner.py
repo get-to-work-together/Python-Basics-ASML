@@ -9,7 +9,7 @@ def banner(text):
 def banner(text, c = '*'):
     n = len(text)
     print(c * (n + 6))
-    print(f'{c:<3}{text}{c:>3}')
+    print(f'{c}  {text}  {c}')
     print(c * (n + 6))
 
 
@@ -61,5 +61,5 @@ if __name__ == '__main__':
     name = input('What is your name? : ')
 
     banner(name)
-    banner(name, '#')
-    banner(name, c='☆')
+    banner(name, c='#')
+    banner(name, c='$')

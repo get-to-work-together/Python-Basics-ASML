@@ -9,7 +9,7 @@ url += '&mode=json'
 url += '&lang=nl'
 url += '&q=' + city
 
-#print(url)
+print(url)
 
 r = requests.get(url)
 
