@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
     number = random.randint(low, high)
 
-    print( 'list', timeit(function1) )
-    print( 'tuple', timeit(function2) )
-    print( 'set', timeit(function3) )
-    print( 'list & set', timeit(function4) )
+    print( 'list', timeit(function1, number=1000) )
+    print( 'tuple', timeit(function2, number=1000) )
+    print( 'set', timeit(function3, number=1000) )
+    print( 'list & set', timeit(function4, number=1000) )

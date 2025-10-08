@@ -1,24 +1,31 @@
-age = int(input('What age? : '))
+user_input = input('What age? : ')
 
-if age < 2:
-    print('A baby')
+if user_input.isnumeric():
+    age = int(user_input)
 
-elif age < 4:
-    print('A toddler')
+    if age < 0:
+        print('Not allowed!!!')
 
-elif age >= 4 and age < 13:
-    print('A kid')
+    elif age < 2:
+        print('A baby')
 
-elif 13 <= age < 20:
-    print('A teenager')
+    elif age < 4:
+        print('A toddler')
 
-elif age in range(20, 65):
-    print('An adult')
+    elif age >= 4 and age < 13:
+        print('A kid')
+
+    elif 13 <= age < 20:
+        print('A teenager')
+
+    elif age in range(20, 65):
+        print('An adult')
+
+    else:
+        print('An elder')
 
 else:
-    print('An elder')
-
-
+    print('Not a number!')
 
 
 

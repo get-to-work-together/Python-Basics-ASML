@@ -6,6 +6,5 @@ area = math.pi * radius ** 2
 circumference = 2 * math.pi * radius
 
 print('Radius', radius)
-print('Area', area)
+print('Area', round(area, 4))
 print('Circumference', round(circumference, 2))
-print(f'Circumference {circumference:.2f}')
