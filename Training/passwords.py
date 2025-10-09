@@ -25,4 +25,11 @@ def generate_password(min_length = 8,
 
 # -----------------------------------------------------
 
-print( generate_password() )
+if __name__ == '__main__':
+
+    print( generate_password() )
+    print( generate_password(min_length = 10,
+                             n_lower = 0,
+                             n_upper = 10,
+                             n_digits = 0,
+                             n_special = 0) )

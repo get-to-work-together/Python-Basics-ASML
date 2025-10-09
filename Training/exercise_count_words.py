@@ -15,8 +15,9 @@ for word in unique_words:
     n = words.count(word)
     d[word] = n
 
-for word, n in sorted(d.items()):
+for word, n in sorted(d.items(), key=lambda item: item[1]):
     print(f'{word:20}: {n}')
+
 
 
 

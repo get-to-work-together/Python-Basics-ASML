@@ -1,6 +1,11 @@
 import pandas as pd
 
+filename = r'/Users/peter/Computrain/_InCompany/ASML/Python Basics/Sandbox/ca-500.csv'
+df = pd.read_csv(filename, sep=';')
 
-df = pd.read_csv('data.csv')
+print(df.info())
 
-df = pd.read_csv('data.csv', sep=';', dayfirst=True, decimal=',')
+# print(df[['first_name', 'last_name']].head(20))
+
+
+print(df)
