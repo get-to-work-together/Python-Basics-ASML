@@ -1,6 +1,0 @@
-id;line;name;value
-1;Line A;Peter;78686
-2;Line B;Mathieu;78623
-3;Line A;Jhonny;72386
-4;Line D;Esmee;71111
-5;Line A;Achmed;23456
