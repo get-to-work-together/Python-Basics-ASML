@@ -1,4 +1,3 @@
-
 def print_banner(text, star_character = '*'):
     """Print a banner with stars
 
