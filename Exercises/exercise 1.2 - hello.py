@@ -1,14 +1,18 @@
-from __future__ import print_function      # for 2.7 users
-
-# This is comment. It will not be executed.
+from math import pi, sin, cos
 
 print('Hello world')
+print("Hello world")
 
-name = input('What is your name? ')        # in 2.7 use raw_input(...)
+name = input('What is your name? ') # Enter your name at the console
 
+#
+# Say hi
+#
 print('Hello ' + name)
 
+print(type(name))
+print(len(name))
 
-
+print(pi)
 
 

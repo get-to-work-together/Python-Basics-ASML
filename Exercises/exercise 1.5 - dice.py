@@ -13,6 +13,11 @@ print('Total', total)
 
 
 
+dices = []
+for i in range(10):
+    dices.append(random.randint(1, 6))
+print(dices)
+print(sum(dices))
 
 
 

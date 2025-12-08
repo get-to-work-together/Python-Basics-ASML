@@ -14,7 +14,7 @@ print('Ends with a ?:', s[-1] == '?')
 
 print('Snake case:', s.lower().replace(' ', '_'))
 
-print('Kebab case:', s.lower().replace(' ', '-'))
 print('Pascal case:', s.title().replace(' ', ''))
 print('Camel case:', s[0].lower() + s.title().replace(' ', '')[1:])
 print('Screaming case:', s.upper().replace(' ', '_'))
+print('Kebab case:', s.lower().replace(' ', '-'))
