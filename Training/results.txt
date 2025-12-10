@@ -1,0 +1,34 @@
+exercise_occurance_of_words.py : Eindhoven is a municipality and a city located in the province of Noord-Brabant in the south of the Netherlands. The city counts 213,809 inhabitants (1 January 2010), which makes it the fifth-largest city of the Netherlands and the biggest of North-Brabant.
+exercise_occurance_of_words.py : Eindhoven is the 2011 Intelligent Community of the Year.""" * 100
+demo_functions.py : """This function will print a welcome message."""
+demo_functions.py : print(f'The bmi is {my_bmi}')
+demo_if.py : print('The number is %d' % number)
+demo_strings.py : # Peter is 65 years old
+demo_strings.py : print(name, 'is', age, 'years old')
+demo_strings.py : print(name + ' is ' + str(age) + ' years old')
+demo_strings.py : print(f'{name} is {age} years old')
+demo_strings.py : print('{} is {} years old'.format(name, age))
+demo_strings.py : print('%s is %d years old' % (name, age))
+passwords.py : print(f'You new password is {password}')
+passwords.py : print(f'You new password is {password}')
+demo_open.py : for filename in os.listdir('.'):
+demo_open.py : if os.path.isfile(filename):
+demo_open.py : for line in read_file(filename, keyword='is'):
+data.txt : Line 2 - this is good
+exercise_occurance_of_words.py : Eindhoven is a municipality and a city located in the province of Noord-Brabant in the south of the Netherlands. The city counts 213,809 inhabitants (1 January 2010), which makes it the fifth-largest city of the Netherlands and the biggest of North-Brabant.
+exercise_occurance_of_words.py : Eindhoven is the 2011 Intelligent Community of the Year.""" * 100
+demo_functions.py : """This function will print a welcome message."""
+demo_functions.py : print(f'The bmi is {my_bmi}')
+demo_if.py : print('The number is %d' % number)
+demo_strings.py : # Peter is 65 years old
+demo_strings.py : print(name, 'is', age, 'years old')
+demo_strings.py : print(name + ' is ' + str(age) + ' years old')
+demo_strings.py : print(f'{name} is {age} years old')
+demo_strings.py : print('{} is {} years old'.format(name, age))
+demo_strings.py : print('%s is %d years old' % (name, age))
+passwords.py : print(f'You new password is {password}')
+passwords.py : print(f'You new password is {password}')
+demo_open.py : for filename in os.listdir('.'):
+demo_open.py : if os.path.isfile(filename):
+demo_open.py : for line in read_file(filename, keyword='is'):
+data.txt : Line 2 - this is good
