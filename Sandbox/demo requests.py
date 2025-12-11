@@ -1,6 +1,7 @@
 import requests
+import pprint
 
-city = 'Eindhoven'
+city = input('Which city? : ')
 
 url  = 'http://api.openweathermap.org/data/2.5/weather'
 url += '?appid=d1526a9039658a6f76950cff21823aff'
@@ -17,7 +18,7 @@ r = requests.get(url)
 
 data = r.json()
 
-#print(data)
+pprint.pprint(data)
 
 temperature = data['main']['temp']
 

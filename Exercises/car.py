@@ -1,10 +1,14 @@
+class InvalidArgumentException(Exception):
+    pass
+
+
 class Car:
 
     DISTANCE_UNITS = 'km'
     VOLUME_UNIT = 'l'
     number_of_cars = 0
 
-    def __init__(self, make:str, model:str, color:str, mileage:int = 0, usage:int = 20):
+    def __init__(self, make: str, model: str, color: str, mileage: int = 0, usage: int = 20):
         self._make = make
         self._model = model
         self._color = color
@@ -29,20 +33,22 @@ class Car:
         if self._started:
             print( f'The engine is still running.')
 
-    def drive(self, km:int):
+    def drive(self, distance: int):
+        if distance < 0:
+            raise InvalidArgumentException('distance should be positive')
         if self._started:
-            self._mileage += km
-            print(f'Driving {km}{Car.DISTANCE_UNITS}.')
+            self._mileage += distance
+            print(f'Driving {distance}{Car.DISTANCE_UNITS}.')
             if self._usage is not None:
-                amount_gas = self.calculate_amount_of_gas(km)
+                amount_gas = self.calculate_amount_of_gas(distance)
                 self._tank -= amount_gas
                 print(f'On this drive you used {amount_gas:.1f} {Car.VOLUME_UNIT} of gasoline.')
 
         else:
             print('Please start your car first.')
 
-    def calculate_amount_of_gas(self, number_of_kilometers: int) -> float:
-        return number_of_kilometers / self._usage
+    def calculate_amount_of_gas(self, distance: int) -> float:
+        return distance / self._usage
 
     def fill_up(self):
         self._tank = 60
@@ -72,6 +78,7 @@ if __name__ == '__main__':
     my_car.start()
     my_car.drive(200)
     my_car.drive(300)
+    my_car.drive(10)
 
     my_car.info()
     print(my_car)

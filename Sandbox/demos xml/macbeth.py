@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 tree = ET.parse(r'Macbeth.xml')
 root = tree.getroot()
 
-print(root)
+# print(root)
 
 # for e1 in root:
 #     print(e1.tag)
@@ -40,7 +40,16 @@ scenes = root.findall('.//SCENE/TITLE')
 for s in scenes:
     print(s.text)
 
+print('\n------ ACTS and SCENES -------------------------------------\n')
 
+acts = root.findall('.//ACT')
+for act in acts:
+    print(act.find('TITLE').text)
+    scenes = act.findall('.//SCENE/TITLE')
+    for scene in scenes:
+        print('   ', scene.text)
+
+exit()
 print('\n------ SPEECHES BY DUNCAN -------------------------\n')
 
 speeches = root.findall('.//SPEECH[SPEAKER="DUNCAN"]')

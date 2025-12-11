@@ -19,27 +19,6 @@ class Car:
         return f'Car("{self._color}", "{self._make}", "{self._model}", {self._mileage})'
 
 
-
-
-
-
-# from dataclasses import dataclass
-#
-# @dataclass
-# class Car:
-#
-#     _make: str
-#     _model: str
-#     _color: str
-#     _mileage: int = 0
-#
-#     def drive(self, km):
-#         self._mileage += km
-#
-#     def info(self):
-#         return f'This great {self._color} {self._make} {self._model} as driven {self._mileage}km.'
-
-
 # -------------------------------------------------------
 
 if __name__ == '__main__':
@@ -47,7 +26,7 @@ if __name__ == '__main__':
     my_car = Car('Renault',
                  'Megane',
                  'metalic brown',
-                 466000)
+                 510000)
 
     print(my_car.info())
 
