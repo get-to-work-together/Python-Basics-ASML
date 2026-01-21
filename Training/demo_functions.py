@@ -21,6 +21,10 @@ def book_flight(fromairport, toairport, numadults=1, numchildren=0):
     print('Number of children: %d' % numchildren)
 
 
+def return_both(a, b):
+    return a + b, a - b
+
+
 
 
 height = float(input('What is your height? '))
@@ -28,3 +32,5 @@ weight = int(input('What is your weight? '))
 result = calculate_bmi(weight, height)
 print(f'Your BMI is {result}')
 
+
+print(return_both(6, 4))
