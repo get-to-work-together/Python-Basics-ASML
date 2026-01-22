@@ -1,0 +1,7 @@
+linenr, name, city, id, email
+line 1, Peter, Lhee, 897987, peter@tip.nl
+line 2, Anthony, Eindhoven, 897987, antony@asml.com
+line 3, Bruno, Veldhoven, 654456, bruno@asml.com
+line 4, Lionel, Eindhoven, 11233, lionel@asml.com
+line 5, Miguel, Geldrop, 34567, miguel@asml.com
+line 6, Hsueyin, Amsterdam, 57567878, hsueyin@asml.com

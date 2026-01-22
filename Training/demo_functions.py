@@ -34,3 +34,4 @@ print(f'Your BMI is {result}')
 
 
 print(return_both(6, 4))
+
