@@ -1,0 +1,8 @@
+name    e-mail
+Peter   peter@tip.nl
+Laura   laura@asml.com
+Chiara  chaira@asml.com
+Dulce   dulce@asml.com
+Ebra    Ebra@asml.com
+John    John@gmail.com
+Samual  Sam@gmail.com

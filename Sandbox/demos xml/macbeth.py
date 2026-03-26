@@ -40,6 +40,8 @@ scenes = root.findall('.//SCENE/TITLE')
 for s in scenes:
     print(s.text)
 
+exit()
+
 print('\n------ ACTS and SCENES -------------------------------------\n')
 
 acts = root.findall('.//ACT')
@@ -49,7 +51,6 @@ for act in acts:
     for scene in scenes:
         print('   ', scene.text)
 
-exit()
 print('\n------ SPEECHES BY DUNCAN -------------------------\n')
 
 speeches = root.findall('.//SPEECH[SPEAKER="DUNCAN"]')

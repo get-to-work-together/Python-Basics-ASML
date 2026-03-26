@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Drenthe Evenementen en Activiteiten",
+    "urls": [
+      "https://www.drenthe.nl/evenementen-activiteiten?order=desc&page=1",
+      "https://www.drenthe.nl/evenementen-activiteiten?order=desc&page=2",
+      "https://www.drenthe.nl/evenementen-activiteiten?order=desc&page=4",
+      "https://www.drenthe.nl/evenementen-activiteiten?order=desc&page=5",
+      "https://www.drenthe.nl/evenementen-activiteiten?order=desc&page=6",
+      "https://www.drenthe.nl/evenementen-activiteiten?order=desc&page=7",
+      "https://www.drenthe.nl/evenementen-activiteiten?order=desc&page=8",
+      "https://www.drenthe.nl/evenementen-activiteiten?order=desc&page=9",
+      "https://www.drenthe.nl/evenementen-activiteiten?order=desc&page=10"
+    ],
+    "item_selector": "li.tiles__tile",
+    "title_selector": "span.description__headtext",
+    "link_selector": "a|href",
+    "date_selector": "meta[itemprop=\"startDate\"]|content",
+    "keywords": []
+  }
+]

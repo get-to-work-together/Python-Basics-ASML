@@ -1,0 +1,288 @@
+[
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "EST",
+            "full_timezone": "America/New_York",
+            "utc_offset": "-05:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "India",
+            "code": "IN",
+            "timezone": "IST",
+            "full_timezone": "Asia/Kolkata",
+            "utc_offset": "+05:30"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "United Arab Emirates",
+            "code": "AE",
+            "timezone": "GST",
+            "full_timezone": "Asia/Dubai",
+            "utc_offset": "+04:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Finland",
+            "code": "FI",
+            "timezone": "EET",
+            "full_timezone": "Europe/Helsinki",
+            "utc_offset": "+02:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Qatar",
+            "code": "QA",
+            "timezone": "AST",
+            "full_timezone": "Asia/Qatar",
+            "utc_offset": "+03:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Taiwan",
+            "code": "TW",
+            "timezone": "CST",
+            "full_timezone": "Asia/Taipei",
+            "utc_offset": "+08:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Belgium",
+            "code": "BE",
+            "timezone": "CET",
+            "full_timezone": "Europe/Brussels",
+            "utc_offset": "+01:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Hungary",
+            "code": "HU",
+            "timezone": "CET",
+            "full_timezone": "Europe/Budapest",
+            "utc_offset": "+01:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Sweden",
+            "code": "SE",
+            "timezone": "CET",
+            "full_timezone": "Europe/Stockholm",
+            "utc_offset": "+01:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "United Kingdom",
+            "code": "GB",
+            "timezone": "GMT",
+            "full_timezone": "Europe/London",
+            "utc_offset": "+00:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Poland",
+            "code": "PL",
+            "timezone": "CET",
+            "full_timezone": "Europe/Warsaw",
+            "utc_offset": "+01:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Portugal",
+            "code": "PT",
+            "timezone": "WET",
+            "full_timezone": "Europe/Lisbon",
+            "utc_offset": "+00:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Austria",
+            "code": "AT",
+            "timezone": "CET",
+            "full_timezone": "Europe/Vienna",
+            "utc_offset": "+01:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Bulgaria",
+            "code": "BG",
+            "timezone": "EET",
+            "full_timezone": "Europe/Sofia",
+            "utc_offset": "+02:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Denmark",
+            "code": "DK",
+            "timezone": "CET",
+            "full_timezone": "Europe/Copenhagen",
+            "utc_offset": "+01:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Germany",
+            "code": "DE",
+            "timezone": "CET",
+            "full_timezone": "Europe/Berlin",
+            "utc_offset": "+01:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "France",
+            "code": "FR",
+            "timezone": "CET",
+            "full_timezone": "Europe/Paris",
+            "utc_offset": "+01:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Malta",
+            "code": "MT",
+            "timezone": "CET",
+            "full_timezone": "Europe/Malta",
+            "utc_offset": "+01:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Kenya",
+            "code": "KE",
+            "timezone": "EAT",
+            "full_timezone": "Africa/Nairobi",
+            "utc_offset": "+03:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Greece",
+            "code": "GR",
+            "timezone": "EET",
+            "full_timezone": "Europe/Athens",
+            "utc_offset": "+02:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Japan",
+            "code": "JP",
+            "timezone": "JST",
+            "full_timezone": "Asia/Tokyo",
+            "utc_offset": "+09:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Australia",
+            "code": "AU",
+            "timezone": "AEST",
+            "full_timezone": "Australia/Sydney",
+            "utc_offset": "+10:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Oman",
+            "code": "OM",
+            "timezone": "GST",
+            "full_timezone": "Asia/Muscat",
+            "utc_offset": "+04:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Canada",
+            "code": "CA",
+            "timezone": "EST",
+            "full_timezone": "America/Toronto",
+            "utc_offset": "-05:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Italy",
+            "code": "IT",
+            "timezone": "CET",
+            "full_timezone": "Europe/Rome",
+            "utc_offset": "+01:00"
+        }
+    },
+    {
+        "model": "airport.country",
+        "pk": null,
+        "fields": {
+            "name": "Ireland",
+            "code": "IE",
+            "timezone": "GMT",
+            "full_timezone": "Europe/Dublin",
+            "utc_offset": "+00:00"
+        }
+    }
+]

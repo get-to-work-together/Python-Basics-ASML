@@ -1,0 +1,602 @@
+[
+    {
+        "model": "airport.airport",
+        "pk": 1,
+        "fields": {
+            "name": "Miami International Airport",
+            "iata": "MIA",
+            "country_code": "US",
+            "city": "Miami"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 2,
+        "fields": {
+            "name": "Chennai International Airport",
+            "iata": "MAA",
+            "country_code": "IN",
+            "city": "Chennai"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 3,
+        "fields": {
+            "name": "Abu Dhabi International Airport",
+            "iata": "AUH",
+            "country_code": "AE",
+            "city": "Abu Dhabi"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 4,
+        "fields": {
+            "name": "Helsinki-Vantaa Airport",
+            "iata": "HEL",
+            "country_code": "FI",
+            "city": "Helsinki"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 5,
+        "fields": {
+            "name": "Doha Hamad International Airport",
+            "iata": "DOH",
+            "country_code": "QA",
+            "city": "Doha"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 6,
+        "fields": {
+            "name": "Taipei Taoyuan International Airport",
+            "iata": "TPE",
+            "country_code": "TW",
+            "city": "Taipei"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 7,
+        "fields": {
+            "name": "Brussels Airport",
+            "iata": "BRU",
+            "country_code": "BE",
+            "city": "Brussels"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 8,
+        "fields": {
+            "name": "Budapest Ferenc Liszt International Airport",
+            "iata": "BUD",
+            "country_code": "HU",
+            "city": "Budapest"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 9,
+        "fields": {
+            "name": "Stockholm Arlanda Airport",
+            "iata": "ARN",
+            "country_code": "SE",
+            "city": "Stockholm"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 10,
+        "fields": {
+            "name": "Edinburgh Airport",
+            "iata": "EDI",
+            "country_code": "GB",
+            "city": "Edinburgh"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 11,
+        "fields": {
+            "name": "Kraków John Paul II International Airport",
+            "iata": "KRK",
+            "country_code": "PL",
+            "city": "Kraków"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 12,
+        "fields": {
+            "name": "Lisbon Humberto Delgado Airport",
+            "iata": "LIS",
+            "country_code": "PT",
+            "city": "Lisbon"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 13,
+        "fields": {
+            "name": "Porto Airport",
+            "iata": "OPO",
+            "country_code": "PT",
+            "city": "Porto"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 14,
+        "fields": {
+            "name": "Vienna International Airport",
+            "iata": "VIE",
+            "country_code": "AT",
+            "city": "Vienna"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 15,
+        "fields": {
+            "name": "Tampa International Airport",
+            "iata": "TPA",
+            "country_code": "US",
+            "city": "Tampa"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 16,
+        "fields": {
+            "name": "Sofia Airport",
+            "iata": "SOF",
+            "country_code": "BG",
+            "city": "Sofia"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 17,
+        "fields": {
+            "name": "Copenhagen Airport",
+            "iata": "CPH",
+            "country_code": "DK",
+            "city": "Copenhagen"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 18,
+        "fields": {
+            "name": "Düsseldorf International Airport",
+            "iata": "DUS",
+            "country_code": "DE",
+            "city": "Düsseldorf"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 19,
+        "fields": {
+            "name": "Nice Côte d'Azur Airport",
+            "iata": "NCE",
+            "country_code": "FR",
+            "city": "Nice"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 20,
+        "fields": {
+            "name": "Malta International Airport",
+            "iata": "MLA",
+            "country_code": "MT",
+            "city": "Luqa"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 21,
+        "fields": {
+            "name": "Nairobi Jomo Kenyatta International Airport",
+            "iata": "NBO",
+            "country_code": "KE",
+            "city": "Nairobi"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 22,
+        "fields": {
+            "name": "Athens International Airport",
+            "iata": "ATH",
+            "country_code": "GR",
+            "city": "Athens"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 23,
+        "fields": {
+            "name": "Kansai International Airport",
+            "iata": "KIX",
+            "country_code": "JP",
+            "city": "Osaka"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 24,
+        "fields": {
+            "name": "Gatwick Airport",
+            "iata": "LGW",
+            "country_code": "GB",
+            "city": "London"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 25,
+        "fields": {
+            "name": "Perth Airport",
+            "iata": "PER",
+            "country_code": "AU",
+            "city": "Perth"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 26,
+        "fields": {
+            "name": "Muscat International Airport",
+            "iata": "MCT",
+            "country_code": "OM",
+            "city": "Muscat"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 27,
+        "fields": {
+            "name": "Halifax Stanfield International Airport",
+            "iata": "YHZ",
+            "country_code": "CA",
+            "city": "Halifax"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 28,
+        "fields": {
+            "name": "Catania-Fontanarossa Airport",
+            "iata": "CTA",
+            "country_code": "IT",
+            "city": "Catania"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 29,
+        "fields": {
+            "name": "Montreal-Pierre Elliott Trudeau International Airport",
+            "iata": "YUL",
+            "country_code": "CA",
+            "city": "Montreal"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 30,
+        "fields": {
+            "name": "Dublin Airport",
+            "iata": "DUB",
+            "country_code": "IE",
+            "city": "Dublin"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 31,
+        "fields": {
+            "name": "Doha Hamad International Airport",
+            "iata": "DOH",
+            "country_code": "QA",
+            "city": "Doha"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 32,
+        "fields": {
+            "name": "Taipei Taoyuan International Airport",
+            "iata": "TPE",
+            "country_code": "TW",
+            "city": "Taipei"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 33,
+        "fields": {
+            "name": "Brussels Airport",
+            "iata": "BRU",
+            "country_code": "BE",
+            "city": "Brussels"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 34,
+        "fields": {
+            "name": "Budapest Ferenc Liszt International Airport",
+            "iata": "BUD",
+            "country_code": "HU",
+            "city": "Budapest"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 35,
+        "fields": {
+            "name": "Stockholm Arlanda Airport",
+            "iata": "ARN",
+            "country_code": "SE",
+            "city": "Stockholm"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 36,
+        "fields": {
+            "name": "Edinburgh Airport",
+            "iata": "EDI",
+            "country_code": "GB",
+            "city": "Edinburgh"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 37,
+        "fields": {
+            "name": "Kraków John Paul II International Airport",
+            "iata": "KRK",
+            "country_code": "PL",
+            "city": "Kraków"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 38,
+        "fields": {
+            "name": "Lisbon Humberto Delgado Airport",
+            "iata": "LIS",
+            "country_code": "PT",
+            "city": "Lisbon"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 39,
+        "fields": {
+            "name": "Porto Airport",
+            "iata": "OPO",
+            "country_code": "PT",
+            "city": "Porto"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 40,
+        "fields": {
+            "name": "Vienna International Airport",
+            "iata": "VIE",
+            "country_code": "AT",
+            "city": "Vienna"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 41,
+        "fields": {
+            "name": "Tampa International Airport",
+            "iata": "TPA",
+            "country_code": "US",
+            "city": "Tampa"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 42,
+        "fields": {
+            "name": "Sofia Airport",
+            "iata": "SOF",
+            "country_code": "BG",
+            "city": "Sofia"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 43,
+        "fields": {
+            "name": "Copenhagen Airport",
+            "iata": "CPH",
+            "country_code": "DK",
+            "city": "Copenhagen"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 44,
+        "fields": {
+            "name": "Düsseldorf International Airport",
+            "iata": "DUS",
+            "country_code": "DE",
+            "city": "Düsseldorf"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 45,
+        "fields": {
+            "name": "Nice Côte d'Azur Airport",
+            "iata": "NCE",
+            "country_code": "FR",
+            "city": "Nice"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 46,
+        "fields": {
+            "name": "Malta International Airport",
+            "iata": "MLA",
+            "country_code": "MT",
+            "city": "Luqa"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 47,
+        "fields": {
+            "name": "Nairobi Jomo Kenyatta International Airport",
+            "iata": "NBO",
+            "country_code": "KE",
+            "city": "Nairobi"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 48,
+        "fields": {
+            "name": "Athens International Airport",
+            "iata": "ATH",
+            "country_code": "GR",
+            "city": "Athens"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 49,
+        "fields": {
+            "name": "Kansai International Airport",
+            "iata": "KIX",
+            "country_code": "JP",
+            "city": "Osaka"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 50,
+        "fields": {
+            "name": "Gatwick Airport",
+            "iata": "LGW",
+            "country_code": "GB",
+            "city": "London"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 51,
+        "fields": {
+            "name": "Perth Airport",
+            "iata": "PER",
+            "country_code": "AU",
+            "city": "Perth"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 52,
+        "fields": {
+            "name": "Muscat International Airport",
+            "iata": "MCT",
+            "country_code": "OM",
+            "city": "Muscat"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 53,
+        "fields": {
+            "name": "Halifax Stanfield International Airport",
+            "iata": "YHZ",
+            "country_code": "CA",
+            "city": "Halifax"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 54,
+        "fields": {
+            "name": "Catania-Fontanarossa Airport",
+            "iata": "CTA",
+            "country_code": "IT",
+            "city": "Catania"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 55,
+        "fields": {
+            "name": "Montreal-Pierre Elliott Trudeau International Airport",
+            "iata": "YUL",
+            "country_code": "CA",
+            "city": "Montreal"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 56,
+        "fields": {
+            "name": "Dublin Airport",
+            "iata": "DUB",
+            "country_code": "IE",
+            "city": "Dublin"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 57,
+        "fields": {
+            "name": "Miami International Airport",
+            "iata": "MIA",
+            "country_code": "US",
+            "city": "Miami"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 58,
+        "fields": {
+            "name": "Chennai International Airport",
+            "iata": "MAA",
+            "country_code": "IN",
+            "city": "Chennai"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 59,
+        "fields": {
+            "name": "Abu Dhabi International Airport",
+            "iata": "AUH",
+            "country_code": "AE",
+            "city": "Abu Dhabi"
+        }
+    },
+    {
+        "model": "airport.airport",
+        "pk": 60,
+        "fields": {
+            "name": "Helsinki-Vantaa Airport",
+            "iata": "HEL",
+            "country_code": "FI",
+            "city": "Helsinki"
+        }
+    }
+]

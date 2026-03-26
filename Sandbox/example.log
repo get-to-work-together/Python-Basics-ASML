@@ -7,3 +7,15 @@
 2024-09-12T11:59:29.093 - root - ERROR - Watch out!
 2024-09-12T11:59:29.093 - root - CRITICAL - ERROR!!!!!
 2024-09-12T11:59:29.093 - root - ERROR - invalid literal for int() with base 10: 'one'
+2026-03-25T16:17:19.069 - root - DEBUG - what
+2026-03-25T16:17:19.070 - root - DEBUG - the
+2026-03-25T16:17:19.070 - root - DEBUG - hell
+2026-03-25T16:17:19.070 - root - DEBUG - is
+2026-03-25T16:17:19.070 - root - DEBUG - going
+2026-03-25T16:17:19.070 - root - DEBUG - on
+2026-03-25T16:17:19.070 - root - DEBUG - This message should go to the log file
+2026-03-25T16:17:19.070 - root - INFO - So should this
+2026-03-25T16:17:19.070 - root - WARNING - And this, too
+2026-03-25T16:17:19.070 - root - ERROR - Watch out!
+2026-03-25T16:17:19.070 - root - CRITICAL - ERROR!!!!!
+2026-03-25T16:17:19.070 - root - ERROR - invalid literal for int() with base 10: 'one'

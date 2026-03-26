@@ -1,0 +1,437 @@
+[
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-800",
+        "airline_name": "American Airlines",
+        "tail_number": "N900NN"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 777-300ER",
+        "airline_name": "Emirates",
+        "tail_number": "A6-EQO"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A320-200",
+        "airline_name": "Delta Air Lines",
+        "tail_number": "N374NW"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 787-9 Dreamliner",
+        "airline_name": "Qatar Airways",
+        "tail_number": "A7-BHE"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A380-800",
+        "airline_name": "Singapore Airlines",
+        "tail_number": "9V-SKW"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737 MAX 8",
+        "airline_name": "Southwest Airlines",
+        "tail_number": "N8711M"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 747-8",
+        "airline_name": "Lufthansa",
+        "tail_number": "D-ABYA"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A350-900",
+        "airline_name": "Cathay Pacific",
+        "tail_number": "B-LRQ"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 777-200ER",
+        "airline_name": "British Airways",
+        "tail_number": "G-YMMH"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A330-300",
+        "airline_name": "Turkish Airlines",
+        "tail_number": "TC-JOB"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 767-300ER",
+        "airline_name": "United Airlines",
+        "tail_number": "N674UA"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A321neo",
+        "airline_name": "JetBlue Airways",
+        "tail_number": "N2002J"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 787-8 Dreamliner",
+        "airline_name": "ANA (All Nippon Airways)",
+        "tail_number": "JA813A"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A220-300",
+        "airline_name": "Air France",
+        "tail_number": "F-HZUA"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 747-400",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BFV"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-800",
+        "airline_name": "Ryanair",
+        "tail_number": "EI-DCP"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A320-200",
+        "airline_name": "easyJet",
+        "tail_number": "G-EZTD"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-800",
+        "airline_name": "Qantas",
+        "tail_number": "VH-VXT"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 777-300ER",
+        "airline_name": "Etihad Airways",
+        "tail_number": "A6-ETQ"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A350-1000",
+        "airline_name": "Virgin Atlantic",
+        "tail_number": "G-VPOP"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-800",
+        "airline_name": "American Airlines",
+        "tail_number": "N900NN"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 777-300ER",
+        "airline_name": "Emirates",
+        "tail_number": "A6-EQO"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A320-200",
+        "airline_name": "Delta Air Lines",
+        "tail_number": "N374NW"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 787-9 Dreamliner",
+        "airline_name": "Qatar Airways",
+        "tail_number": "A7-BHE"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A380-800",
+        "airline_name": "Singapore Airlines",
+        "tail_number": "9V-SKW"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737 MAX 8",
+        "airline_name": "Southwest Airlines",
+        "tail_number": "N8711M"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 747-8",
+        "airline_name": "Lufthansa",
+        "tail_number": "D-ABYA"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A350-900",
+        "airline_name": "Cathay Pacific",
+        "tail_number": "B-LRQ"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 777-200ER",
+        "airline_name": "British Airways",
+        "tail_number": "G-YMMH"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A330-300",
+        "airline_name": "Turkish Airlines",
+        "tail_number": "TC-JOB"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 767-300ER",
+        "airline_name": "United Airlines",
+        "tail_number": "N674UA"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A321neo",
+        "airline_name": "JetBlue Airways",
+        "tail_number": "N2002J"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 787-8 Dreamliner",
+        "airline_name": "ANA (All Nippon Airways)",
+        "tail_number": "JA813A"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A220-300",
+        "airline_name": "Air France",
+        "tail_number": "F-HZUA"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 747-400",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BFV"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-800",
+        "airline_name": "Ryanair",
+        "tail_number": "EI-DCP"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A320-200",
+        "airline_name": "easyJet",
+        "tail_number": "G-EZTD"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-800",
+        "airline_name": "Qantas",
+        "tail_number": "VH-VXT"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 777-300ER",
+        "airline_name": "Etihad Airways",
+        "tail_number": "A6-ETQ"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A350-1000",
+        "airline_name": "Virgin Atlantic",
+        "tail_number": "G-VPOP"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737 MAX 8",
+        "airline_name": "Air Canada",
+        "tail_number": "C-FSES"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A330-200",
+        "airline_name": "Aer Lingus",
+        "tail_number": "EI-EWR"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 747-400",
+        "airline_name": "British Airways",
+        "tail_number": "G-CIVY"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-700",
+        "airline_name": "WestJet",
+        "tail_number": "C-GWSX"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A320-214",
+        "airline_name": "Spirit Airlines",
+        "tail_number": "N618NK"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 787-10 Dreamliner",
+        "airline_name": "Singapore Airlines",
+        "tail_number": "9V-SCN"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A321-200",
+        "airline_name": "LATAM Airlines",
+        "tail_number": "CC-BEI"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 757-200",
+        "airline_name": "Icelandair",
+        "tail_number": "TF-FIV"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A350-900",
+        "airline_name": "Finnair",
+        "tail_number": "OH-LWA"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-800",
+        "airline_name": "Alaska Airlines",
+        "tail_number": "N569AS"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A320-200",
+        "airline_name": "Jetstar Airways",
+        "tail_number": "VH-VFY"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 777-300ER",
+        "airline_name": "Japan Airlines",
+        "tail_number": "JA736J"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A330-900neo",
+        "airline_name": "TAP Air Portugal",
+        "tail_number": "CS-TUB"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 787-9 Dreamliner",
+        "airline_name": "Air New Zealand",
+        "tail_number": "ZK-NZH"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A350-1000",
+        "airline_name": "British Airways",
+        "tail_number": "G-XWBA"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-800",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BXL"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 787-8 Dreamliner",
+        "airline_name": "Royal Air Maroc",
+        "tail_number": "CN-RGY"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A320-200",
+        "airline_name": "Avianca",
+        "tail_number": "N280AV"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-800",
+        "airline_name": "Thai Airways",
+        "tail_number": "HS-TYD"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A330-300",
+        "airline_name": "Lufthansa",
+        "tail_number": "D-AIKE"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 767-300ER",
+        "airline_name": "Air Canada",
+        "tail_number": "C-FPCA"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A320-200",
+        "airline_name": "AirAsia",
+        "tail_number": "9M-AFP"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737 MAX 9",
+        "airline_name": "Lion Air",
+        "tail_number": "PK-LQP"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 777-200ER",
+        "airline_name": "Korean Air",
+        "tail_number": "HL7764"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A320-200",
+        "airline_name": "Volaris",
+        "tail_number": "XA-VLC"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 777-300ER",
+        "airline_name": "China Airlines",
+        "tail_number": "B-18007"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A380-800",
+        "airline_name": "Asiana Airlines",
+        "tail_number": "HL7641"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-800",
+        "airline_name": "Air India Express",
+        "tail_number": "VT-AXZ"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A330-200",
+        "airline_name": "Qatar Airways",
+        "tail_number": "A7-ACI"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 787-9 Dreamliner",
+        "airline_name": "Vietnam Airlines",
+        "tail_number": "VN-A868"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A321neo",
+        "airline_name": "Azul Brazilian Airlines",
+        "tail_number": "PR-YJA"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737 MAX 8",
+        "airline_name": "GOL Linhas Aéreas",
+        "tail_number": "PR-XMA"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 777-200ER",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BQA"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-700",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BGK"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-900",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BXP"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 787-10 Dreamliner",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BKA"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A330-200",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-AOD"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-800",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BXI"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 787-9 Dreamliner",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BHO"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 777-300ER",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BVU"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-800",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BXV"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-700",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BGI"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 777-200ER",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BQD"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 737-900",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BXR"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 787-10 Dreamliner",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BKG"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Airbus A330-300",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-AKA"
+    }},
+    { "model": "airport.airplane", "pk": null, "fields": {
+        "airplane_type_name": "Boeing 747-400 Combi",
+        "airline_name": "KLM Royal Dutch Airlines",
+        "tail_number": "PH-BFV"
+    }
+]
