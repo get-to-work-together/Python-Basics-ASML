@@ -11,3 +11,12 @@ total = dice1 + dice2 + dice3 + dice4 + dice5
 print(dice1, dice2, dice3, dice4, dice5)
 print(total)
 
+
+# die = []
+# for _ in range(20):
+#     dice = random.randint(1, 6)
+#     die.append(dice)
+# total = sum(die)
+#
+# print(die)
+# print(total)
