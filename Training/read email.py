@@ -1,4 +1,4 @@
-filename = 'email.txt'
+filename = 'emails.txt'
 # filename = '/Users/peter/Lesgeven/Computrain/_InCompany/ASML/Python Basics/Training/email.txt'
 # filename = r'..\Training\email.txt'
 
