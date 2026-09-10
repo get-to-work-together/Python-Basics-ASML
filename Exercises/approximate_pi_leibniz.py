@@ -2,7 +2,7 @@
 
 import math
 
-n = 1000000
+n = 10000000
 
 total = 0.0
 add_or_subtract = True

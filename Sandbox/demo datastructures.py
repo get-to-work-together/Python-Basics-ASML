@@ -1,4 +1,7 @@
 
+n: int = 0
+n = 2.5
+
 cities = ['Eindhoven', 'Amsterdam', 'Den Haag']
 
 cities.append('Groningen')
